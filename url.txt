@@ -1,0 +1,1 @@
+To open your Instagram account please put your Instagram account URL in the quotations of webbrowser.open_new
