@@ -2,15 +2,15 @@ import webbrowser
 import tkinter
 from tkinter import *
 
-def open_google():
+def open_instagram():
     webbrowser.open_new("")
 
 root  = Tk()
 
-openLABEL = Label(root,text="Lame Google",fg="blue")
+openLABEL = Label(root,text="Lame Instagram",fg="blue")
 openLABEL.grid()
 
-openBTN = Button(root,text="Open Google",width = 20,command = open_google,font = ("jost",15))
+openBTN = Button(root,text="Open Instagram",width = 20,command = open_instagram,font = ("jost",15))
 openBTN.grid()
 
 root.mainloop()
